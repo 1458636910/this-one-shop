@@ -1,0 +1,166 @@
+.body_middle_center{
+	height: 490px;
+	width: 1205px;
+	border: 1px solid #000000;
+	margin-top:25px ;
+}
+.body_middle_nav{
+	height: 40px;
+	width: 1205px;
+	margin: 0 auto;
+}
+.body_middle_nav_left{
+	/*float: left;*/
+	height: 40px;
+	line-height: 40px;
+	background: url(../img/index/floor.png)  5px 0px no-repeat;
+	padding-left: 10px;
+	float: left;
+}
+.hangneigaiv{
+	margin-left: 20px;
+    font-weight: bold;
+}
+.body_middle_nav_right{
+	height: 40px;
+	line-height: 40px;
+	float: right;
+}
+.body_middle_nav_right a{
+	margin-right: 17px;
+}
+.body_middle_nav_right_xia{
+	width: 1205px;
+	height: 2px;
+}
+
+/* css 重置 */
+		*{margin:0; padding:0; list-style:none; }
+		body{ background:#fff; font:normal 12px/22px 宋体;  }
+		img{ border:0;  }
+		a{ text-decoration:none; color:#333;  }
+
+		/* 本例子css */
+		.slideBox{ width:215px; height:290px; overflow:hidden; position:relative; border:1px solid #ddd;  }
+		.slideBox .hd{ height:20px; overflow:hidden; position:absolute; right:300px; bottom:5px; z-index:1; }
+		.slideBox .hd ul{ overflow:hidden; zoom:1; float:left;  }
+		.slideBox .hd ul li{border-radius: 50%; float:left; margin-right:10px;  width:20px; height:20px; line-height:20px; text-align:center; background:#ccc0b3; color:#000000;cursor:pointer; }
+		.slideBox .hd ul li.on{ background:#ff3c3c; color:#fff; }
+		.slideBox .bd{ position:relative; height:100%; z-index:0;   }
+		.slideBox .bd li{ zoom:1; vertical-align:middle; }
+		.slideBox .bd img{ width:215px; height:290px; display:block;  }
+
+		/* 下面是前/后按钮代码，如果不需要删除即可 */
+		.slideBox .next{
+			 position:absolute;
+			  left:3%; top:50%;
+			   margin-top:-35px; 
+			   display:block; 
+			   width:20px;
+			    height:40px;
+			     background:url(../img/index/s_right.png) -110px 5px no-repeat; 
+			     left:auto; 
+			     right:0; 
+			     background-position:0px 0px;
+			      }
+		.slideBox .prev{ 
+			position:absolute;
+			top:50%;
+			 margin-top:-35px;
+			  display:block;
+			   width:20px; 
+			   height:40px; 
+			   background:url(../img/index/s_left.png) no-repeat;
+			   right:auto;
+			   left: 0; 
+			   background-position:0px 0px;
+			   }
+		
+		.slideBox .prev:hover,
+		.slideBox .next:hover{ filter:alpha(opacity=100);opacity:1;  }
+		.slideBox .prevStop{ display:none;  }
+		.slideBox .nextStop{ display:none;  }
+.pic3{
+	width:215px; height:290px;
+}
+.bd a{
+	display: block;
+	width:215px; height:290px;
+}
+.body_middle_section{
+	height: 440px;
+	width: 1205px;
+	margin: 0 auto;
+}
+.body_middle_aside{
+	width: 215px;
+	height: 150px;
+	background: #e4f7ec;
+}
+.body_middle_aside a{
+	color: #555555;
+}
+.body_middle_aside span{
+	margin-left: 30px;
+}
+.body_middle_article{
+	width: 985px;
+	height: 440px;
+	float: left;
+}
+.body_middle_section_left{
+	width: 215px;
+	height:440px;
+	float: left;
+} 
+.body_middle_section_right{
+	width: 253px;
+	height: 440px;
+	float: right;
+}
+.body_middle_section_right img{
+	width: 255px;
+	height: 220px;
+}
+.body_middle_section_right img:last-child{
+	margin-top: -3px;
+}
+.xiangtong{
+	width: 241px;
+	height: 219px;
+	float: left;
+	box-sizing: border-box;
+}
+.yangshi1{
+	height: 70px;
+	width:241px ;
+	line-height: 30px;
+	text-align: center;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+.yangshi3 a{
+	color: #555;
+	font-size: 14px;
+}
+.tupian1{
+	width: 241px;
+	height: 148px;
+	text-align: center;
+	overflow: hidden;
+	line-height: 160px;
+}
+.tupian1 img{
+	margin: 0 auto;
+	transition: all 0.5s;
+	vertical-align: middle;
+}
+.tupian1 img:hover{
+	transform: scale(1.1);
+}
+.xiahuaxian{
+	border-bottom: 1px solid #eaeaea;
+}
+.youhuaxian{
+	border-right: 1px solid #eaeaea;
+}

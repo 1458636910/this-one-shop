@@ -1,0 +1,52 @@
+
+		/* css 重置 */
+		*{margin:0; padding:0; list-style:none; }
+		body{ background:#fff; font:normal 12px/22px 宋体;  }
+		img{ border:0;  }
+		a{ text-decoration:none; color:#333;  }
+
+		/* 本例子css */
+		.slideBox{ width:740px; height:400px; overflow:hidden; position:relative; border:1px solid #ddd;  }
+		.slideBox .hd{ height:20px; overflow:hidden; position:absolute; right:300px; bottom:5px; z-index:1; }
+		.slideBox .hd ul{ overflow:hidden; zoom:1; float:left;  }
+		.slideBox .hd ul li{border-radius: 50%; float:left; margin-right:10px;  width:20px; height:20px; line-height:20px; text-align:center; background:#ccc0b3; color:#000000;cursor:pointer; }
+		.slideBox .hd ul li.on{ background:#ff3c3c; color:#fff; }
+		.slideBox .bd{ position:relative; height:100%; z-index:0;   }
+		.slideBox .bd li{ zoom:1; vertical-align:middle; }
+		.slideBox .bd img{ width:740px; height:400px; display:block;  }
+
+		/* 下面是前/后按钮代码，如果不需要删除即可 */
+		.slideBox .next{
+			 position:absolute;
+			  left:3%; top:50%;
+			   margin-top:-35px; 
+			   display:block; 
+			   width:32px;
+			    height:60px;
+			     background:url(../img/index/b_right.png) -110px 5px no-repeat; 
+			     left:auto; 
+			     right:0; 
+			     background-position:0px 0px;
+			      }
+		.slideBox .prev{ 
+			position:absolute;
+			top:50%;
+			 margin-top:-35px;
+			  display:block;
+			   width:32px; 
+			   height:60px; 
+			   background:url(../img/index/b_left.png) no-repeat;
+			   right:auto;
+			   left: 0; 
+			   background-position:0px 0px;
+			   }
+		
+		.slideBox .prev:hover,
+		.slideBox .next:hover{ filter:alpha(opacity=100);opacity:1;  }
+		.slideBox .prevStop{ display:none;  }
+		.slideBox .nextStop{ display:none;  }
+
+
+
+
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/轮播图.css"/>
+		<script src="http://libs.baidu.com/jquery/1.4.2/jquery.min.js"></script>
+		<script src="js/轮播图.js">		
+		</script>
+	</head>
+	
+	<body>
+		
+		<div id="slideBox" class="slideBox">
+			<div class="hd">
+				<ul><li>1</li><li>2</li><li>3</li></ul>
+			</div>
+			<div class="bd">
+				<ul>
+					<li><a href="http://www.superslide2.com/demo/images/pic3.jpg" target="_blank"><img src="img/index/ban1.jpg" /></a></li>
+					<li><a href="http://www.superslide2.com/demo/images/pic3.jpg" target="_blank"><img src="img/index/ban1.jpg" /></a></li>
+					<li><a href="http://www.superslide2.com/demo/images/pic3.jpg" target="_blank"><img src="http://www.superslide2.com/demo/images/pic3.jpg" /></a></li>
+				</ul>
+			</div>
+
+			<!-- 下面是前/后按钮代码，如果不需要删除即可 -->
+			<a class="prev" href="javascript:void(0)"></a>
+			<a class="next" href="javascript:void(0)"></a>
+
+		</div>
+       <script type="text/javascript">
+       	jQuery(".slideBox").slide({mainCell:".bd ul",autoPlay:true});
+       </script>
+		
+	</body>
+</html>
